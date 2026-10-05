@@ -175,7 +175,7 @@ function playNote() {
   gain.gain.setValueAtTime(0, now);
 
   gain.gain.linearRampToValueAtTime(
-    0.045,
+    0.12,
     now + 0.08
   );
 
